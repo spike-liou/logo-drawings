@@ -1,0 +1,60 @@
+to diamond
+fd 50 rt 80
+fd 50 rt 100
+fd 50 rt 80
+fd 50 rt 100
+end
+
+to sword
+setpencolor "tan
+wheel
+rt 90 fd 200
+lt 90
+wheel
+rt 90
+fd 200
+fd 50
+lt 150
+fd 90
+fd 90
+bk 180
+lt 60
+fd 180
+rt 30
+fd 210
+fd 60
+fd 200
+rt 45
+fd 70
+fd 40
+lt 45
+fd 90
+fd 80
+rt 90
+fd 22
+rt 90
+fd 170
+lt 45
+fd 110
+rt 45
+fd 470
+rt 30
+fd 30
+lt 30
+fd 40
+bk 40
+rt 90
+fd 110
+fd 30
+fd 10
+lt 90
+fd 40
+end
+
+to wheel
+repeat 36 [
+  diamond
+  rt 10
+]
+end
+
