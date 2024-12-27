@@ -49,6 +49,39 @@ fd 30
 fd 10
 lt 90
 fd 40
+
+rt 180
+fd 40
+lt 30
+penup
+fd 30
+rt 30
+fd 470
+rt 45
+fd 110
+pendown
+rt 45
+fd 180
+rt 150
+fd 50
+rt 30
+fd 220
+fd 30
+rt 30
+fd 50
+rt 150
+fd 160
+
+rt 135
+fd 110
+lt 135
+fd 180
+pu
+lt 170
+fd 80
+pd
+setfloodcolor "blue
+fill
 end
 
 to wheel
