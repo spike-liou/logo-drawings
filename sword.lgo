@@ -82,6 +82,19 @@ fd 80
 pd
 setfloodcolor "blue
 fill
+
+pu
+bk 85
+lt 35
+fd 190
+pd
+fd 50
+lt 95
+fd 50
+
+fd 20
+setfloodcolor "silver
+fill
 end
 
 to wheel
