@@ -95,6 +95,21 @@ fd 50
 fd 20
 setfloodcolor "silver
 fill
+bk 10
+rt 35
+lt 5
+pu
+fd 210
+fd 90
+fd 20
+lt 35
+fd 40
+lt 30
+fd 60
+pd
+setfloodcolor "green fill
+fd  45
+fill
 end
 
 to wheel
